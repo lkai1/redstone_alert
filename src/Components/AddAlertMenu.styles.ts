@@ -1,0 +1,118 @@
+import {Dimensions, StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  main: {
+    backgroundColor: 'black',
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    height: Dimensions.get('window').height,
+  },
+  addAlertMenuContentContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    width: '100%',
+    height: '100%',
+  },
+  closeAddAlertMenuIcon: {
+    alignSelf: 'flex-end',
+    color: '#696969',
+    fontSize: 35,
+    margin: 10,
+  },
+  textInput: {
+    borderBottomColor: '#ec1d0b',
+    fontSize: 18,
+    borderBottomWidth: 3,
+    alignSelf: 'center',
+    width: '90%',
+    marginBottom: 10,
+    backgroundColor: 'black',
+    paddingVertical: 8,
+    paddingHorizontal: 10,
+    color: 'white',
+    fontFamily: 'monospace',
+  },
+  addAlertMenuButtonsContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    width: '100%',
+  },
+  button: {
+    padding: 10,
+    borderRadius: 5,
+    backgroundColor: '#303030',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    margin: 5,
+    width: '44%',
+    /* backgroundColor: '#0f0881', */
+  },
+  buttonText: {
+    fontSize: 16,
+    color: '#eeeeee',
+    fontWeight: 'bold',
+  },
+  buttonIcon: {
+    fontSize: 22,
+    marginLeft: 5,
+    color: '#696969',
+    fontWeight: 'bold',
+  },
+  selectedTextsContainer: {
+    margin: 20,
+    width: '83%',
+    alignSelf: 'center',
+  },
+  validationNotificationText: {
+    fontSize: 16,
+    color: '#ec1d0b',
+    marginBottom: 20,
+    padding: 5,
+    borderColor: '#ec1d0b',
+    borderWidth: 2,
+    borderRadius: 5,
+    textAlign: 'center',
+    fontFamily: 'monospace',
+  },
+  selectedTextsTitle: {
+    fontSize: 16,
+    color: 'white',
+    fontFamily: 'monospace',
+  },
+  selectedTexts: {
+    fontSize: 16,
+    color: '#696969',
+    fontWeight: 'bold',
+  },
+  createButton: {
+    alignSelf: 'flex-end',
+    padding: 10,
+    borderRadius: 5,
+    backgroundColor: '#ec1d0b',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    margin: 20,
+    width: '49%',
+    marginBottom: 40,
+  },
+  createButtonText: {
+    fontSize: 16,
+    color: 'rgb(230, 230, 230)',
+    fontWeight: 'bold',
+  },
+  createButtonIcon: {
+    fontSize: 22,
+    marginLeft: 5,
+    color: 'rgb(230, 230, 230)',
+    fontWeight: 'bold',
+  },
+});
+
+export default styles;
