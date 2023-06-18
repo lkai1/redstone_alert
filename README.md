@@ -2,8 +2,8 @@
 <h1>Mobile alert app for online game.</h1>
 <br/>
 
-![redstonealert3](https://github.com/lkai1/redstone_alert/assets/62508363/364b4c95-d40f-4abb-a459-bf0d2cb36c0c)
+![redstonealert3](https://github.com/lkai1/redstone_alert/assets/62508363/15ea3db1-5c6a-4b81-b09c-711eb28658f2)
 <br/>
-![redstone](https://github.com/lkai1/redstone_alert/assets/62508363/a425be1e-7a33-43fb-91e3-4b035df737fa)
+![redstone](https://github.com/lkai1/redstone_alert/assets/62508363/e30d25d7-8801-47ba-8c74-53e94a57cbd6)
 <br/>
-![redstone](https://github.com/lkai1/redstone_alert/assets/62508363/ef9ce07f-4d56-40cc-8028-978570bb22e0)
+![redstonealert 1](https://github.com/lkai1/redstone_alert/assets/62508363/b8893200-4a5d-41e0-8501-2216457496bd)
